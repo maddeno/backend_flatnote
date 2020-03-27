@@ -1,7 +1,6 @@
 class NotesController < ApplicationController
 
     def create
-        puts params
         note = Note.create(note_params)
         render json: note
     end
