@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyString
+  urgency: 1
+  status: MyString
+  date: MyString
+  time: MyString
+  task_id: 1
+  user_id: 1
+
+two:
+  description: MyString
+  urgency: 1
+  status: MyString
+  date: MyString
+  time: MyString
+  task_id: 1
+  user_id: 1
