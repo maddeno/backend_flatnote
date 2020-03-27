@@ -5,6 +5,18 @@ class NotesController < ApplicationController
         render json: note
     end
 
+    def update
+        note = Note.find_by(id: params[:id])
+        note.update(:status => 'done' )
+        render json: note
+    end
+
+    def destroy
+        note = Note.find_by(id: params[:id])
+        note.destroy
+        render json: note
+    end
+
     private
 
     def note_params
