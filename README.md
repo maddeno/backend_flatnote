@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Flatnote
 
-Things you may want to cover:
+![](images/screenshot.png)
 
-* Ruby version
+## Front-end Repo: https://github.com/maddeno/flatnote-frontend
 
-* System dependencies
+## Demo: https://drive.google.com/open?id=1rW8R_mAbXNXwHNujyfmeWIc8THs9y9vM
 
-* Configuration
+## Technologies: Ruby, Rails, Postgresql
 
-* Database creation
+Flatnote is a to-do list app with a React front-end and a Rails back-end. The back-end relational database stores users, task-categories, and the joiner: notes. Notes belong to a user and belong to a task. 
 
-* Database initialization
+When a user logs in they are taken to the TaskList component. This renders a table of the six different tasks as well as all of the pre-existing notes that fall under those tasks. From there users can create new notes, update existing notes to "done", and delete notes. 
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To start run ```rails s```. Use the link at the top of the Readme to access the front-end repo and in another terminal run ```npm start```. 
